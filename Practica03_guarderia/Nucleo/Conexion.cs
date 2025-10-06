@@ -14,5 +14,6 @@ namespace parcial
         }
 
         public DbSet<Sucursales>? Sucursales { get; set; }
+        public DbSet<Profesores>? Profesores { get; set; }
     }
 }
