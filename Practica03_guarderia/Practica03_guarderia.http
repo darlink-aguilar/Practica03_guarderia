@@ -1,0 +1,6 @@
+@Practica03_guarderia_HostAddress = http://localhost:5025
+
+GET {{Practica03_guarderia_HostAddress}}/
+Accept: application/json
+
+###
