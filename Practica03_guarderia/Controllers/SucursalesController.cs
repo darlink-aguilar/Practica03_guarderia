@@ -26,6 +26,16 @@ namespace Practica03_guarderia.Controllers
             }
             );
 
+            Conexion!.Sucursales!.Add(new Sucursales()
+            {
+                Tamaño = 300.50m,
+                Nombre = "Pequeños Gigantes",
+                Direccion = "Carrera 45 #10-55 " + DateTime.Now,
+                FechaFundacion = DateTime.Now,
+                Activa = false
+            }
+            );
+
             Conexion!.SaveChanges();
             return Conexion!.Sucursales!.ToList();
             //return new List<Sucursales>();
